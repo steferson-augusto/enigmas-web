@@ -10,7 +10,7 @@ import {
   EnigmaImage
 } from '../../styles/components'
 import Footer from '../../styles/components/Footer'
-import ImagemEnigma from '../../assets/Enigma3.png'
+// import ImagemEnigma from '../../assets/Enigma3.png'
 
 const Enigma3: React.FC = () => {
   return (
@@ -27,7 +27,7 @@ const Enigma3: React.FC = () => {
           <Container>
             <Content>
               <EnigmaText>Espelho + fumaça</EnigmaText>
-              <EnigmaImage src={ImagemEnigma} width="100%" />
+              <EnigmaImage src="/images/Enigma3.png" width="100%" />
             </Content>
             <AdRight>
               <h2>Ad right</h2>
