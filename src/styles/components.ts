@@ -56,6 +56,7 @@ export const Content = styled.div`
   height: 100%;
   width: 60vw;
   border-left: solid 1px #999;
+  max-height: calc(100vh - 200px);
   @media (max-width: 600px) {
     width: 100%;
     height: auto;
@@ -80,6 +81,9 @@ export const EnigmaDescription = styled.p`
 
 export const EnigmaImage = styled.img`
   object-fit: cover;
+  @media (min-height: 421px) {
+    max-height: calc(100vh - 200px);
+  }
 `
 
 export const PathEnigma2 = styled.path`
