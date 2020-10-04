@@ -7,7 +7,7 @@ import {
   AdRight,
   Body,
   EnigmaText,
-  EnigmaBody
+  EnigmaImage
 } from '../../styles/components'
 import Footer from '../../styles/components/Footer'
 import ImagemEnigma from '../../assets/Enigma3.png'
@@ -27,15 +27,13 @@ const Enigma3: React.FC = () => {
           <Container>
             <Content>
               <EnigmaText>Espelho + fumaça</EnigmaText>
-              <EnigmaBody>
-                <img src={ImagemEnigma} width="100%" />
-              </EnigmaBody>
+              <EnigmaImage src={ImagemEnigma} width="100%" />
             </Content>
             <AdRight>
               <h2>Ad right</h2>
             </AdRight>
           </Container>
-          <Footer destiny="4" />
+          <Footer id="5f79210b178db0f247e759e8" destiny="4" />
         </Body>
       </main>
     </div>

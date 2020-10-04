@@ -7,7 +7,7 @@ import {
   AdRight,
   Body,
   EnigmaText,
-  EnigmaBody
+  EnigmaDescription
 } from '../../styles/components'
 import Footer from '../../styles/components/Footer'
 
@@ -26,7 +26,7 @@ const Enigma1: React.FC = () => {
           <Container>
             <Content>
               <EnigmaText>Vamos começar fácil...</EnigmaText>
-              <EnigmaBody>
+              <EnigmaDescription>
                 01110010
                 <br />
                 01100101
@@ -43,13 +43,13 @@ const Enigma1: React.FC = () => {
                 <br />
                 01100001
                 <br />
-              </EnigmaBody>
+              </EnigmaDescription>
             </Content>
             <AdRight>
               <h2>Ad right</h2>
             </AdRight>
           </Container>
-          <Footer destiny="2" />
+          <Footer id="5f791f3a178db0f247e759e6" destiny="2" />
         </Body>
       </main>
     </div>

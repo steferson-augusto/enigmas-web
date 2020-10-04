@@ -6,6 +6,9 @@ export const Body = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+  @media (max-height: 420px) {
+    height: auto;
+  }
 `
 
 export const AdTop = styled.div`
@@ -44,6 +47,9 @@ export const AdRight = styled.div`
     height: 100px;
     border: none;
   }
+  @media (max-height: 420px) {
+    height: 100vh;
+  }
 `
 
 export const Content = styled.div`
@@ -56,6 +62,9 @@ export const Content = styled.div`
     border: none;
     border-bottom: solid 1px #999;
   }
+  @media (max-height: 420px) {
+    max-height: 100vh;
+  }
 `
 export const EnigmaText = styled.h4`
   text-align: center;
@@ -64,9 +73,13 @@ export const EnigmaText = styled.h4`
     font-size: 12px;
   }
 `
-export const EnigmaBody = styled.p`
+export const EnigmaDescription = styled.p`
   text-align: center;
   margin: 20px 15px;
+`
+
+export const EnigmaImage = styled.img`
+  object-fit: cover;
 `
 
 export const PathEnigma2 = styled.path`

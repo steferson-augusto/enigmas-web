@@ -14,18 +14,26 @@ export const Container = styled.div`
   }
 `
 
+interface InputProps {
+  error: boolean
+}
+
 export const Input = styled.input`
   width: 400px;
-  height: 30px;
+  height: 36px;
   padding: 0 2px;
   border-radius: 7px;
   font-size: 18px;
   outline: none;
-  border: solid 3px #555;
+  border: ${(props: InputProps) =>
+    props.error ? 'solid 3px #e53935' : 'solid 3px #ccc'};
+  box-shadow: ${(props: InputProps) =>
+    props.error ? '0 0 3px #e53935' : '0 0 3px #444'};
   transition: ease-in-out, width 0.35s ease-in-out;
   &:focus {
     width: 450px;
-    border: solid 3px #aaa;
+    border: solid 2px #eee;
+    box-shadow: 0 0 4px #fff;
   }
 
   @media (max-width: 570px) {
