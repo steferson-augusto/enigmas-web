@@ -49,7 +49,10 @@ const Enigma2: React.FC = () => {
               <h2>Ad right</h2>
             </AdRight>
           </Container>
-          <Footer id="5f7920c1178db0f247e759e7" destiny="3" />
+          <Footer
+            id="5f7920c1178db0f247e759e7"
+            destiny="5f79210b178db0f247e759e8"
+          />
         </Body>
       </main>
     </div>

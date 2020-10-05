@@ -1,0 +1,42 @@
+import { AlgarismProps } from './styles'
+
+const data: AlgarismProps[] = [
+  { fontSize: 33, position: 49, delay: 4, duration: 15, content: 'A' },
+  { fontSize: 37, position: 9, delay: 4, duration: 18, content: 'B' },
+  { fontSize: 41, position: 6, delay: 2, duration: 22, content: 'C' },
+  { fontSize: 34, position: 43, delay: 1, duration: 14, content: 'D' },
+  { fontSize: 41, position: 82, delay: 3, duration: 12, content: 'E' },
+  { fontSize: 24, position: 3, delay: 3, duration: 12, content: 'F' },
+  { fontSize: 40, position: 73, delay: 4, duration: 20, content: 'G' },
+  { fontSize: 39, position: 4, delay: 0, duration: 14, content: 'H' },
+  { fontSize: 33, position: 53, delay: 2, duration: 23, content: 'I' },
+  { fontSize: 36, position: 35, delay: 0, duration: 14, content: 'J' },
+  { fontSize: 40, position: 95, delay: 4, duration: 20, content: 'K' },
+  { fontSize: 36, position: 12, delay: 1, duration: 20, content: 'L' },
+  { fontSize: 24, position: 77, delay: 2, duration: 21, content: 'M' },
+  { fontSize: 43, position: 44, delay: 1, duration: 20, content: 'N' },
+  { fontSize: 32, position: 58, delay: 0, duration: 19, content: 'O' },
+  { fontSize: 27, position: 46, delay: 4, duration: 18, content: 'P' },
+  { fontSize: 42, position: 21, delay: 4, duration: 13, content: 'Q' },
+  { fontSize: 33, position: 6, delay: 2, duration: 20, content: 'R' },
+  { fontSize: 40, position: 51, delay: 1, duration: 14, content: 'S' },
+  { fontSize: 24, position: 18, delay: 1, duration: 21, content: 'T' },
+  { fontSize: 31, position: 23, delay: 2, duration: 19, content: 'U' },
+  { fontSize: 32, position: 73, delay: 4, duration: 19, content: 'V' },
+  { fontSize: 36, position: 66, delay: 3, duration: 21, content: 'W' },
+  { fontSize: 34, position: 86, delay: 3, duration: 21, content: 'X' },
+  { fontSize: 30, position: 26, delay: 2, duration: 22, content: 'Y' },
+  { fontSize: 42, position: 73, delay: 4, duration: 14, content: 'Z' },
+  { fontSize: 27, position: 26, delay: 1, duration: 13, content: '0' },
+  { fontSize: 44, position: 31, delay: 4, duration: 19, content: '1' },
+  { fontSize: 37, position: 84, delay: 3, duration: 13, content: '2' },
+  { fontSize: 32, position: 31, delay: 4, duration: 17, content: '3' },
+  { fontSize: 33, position: 48, delay: 3, duration: 16, content: '4' },
+  { fontSize: 31, position: 58, delay: 3, duration: 13, content: '5' },
+  { fontSize: 28, position: 87, delay: 4, duration: 15, content: '6' },
+  { fontSize: 38, position: 49, delay: 0, duration: 22, content: '7' },
+  { fontSize: 24, position: 74, delay: 0, duration: 16, content: '8' },
+  { fontSize: 25, position: 10, delay: 2, duration: 13, content: '9' }
+]
+
+export default data
